@@ -12,7 +12,7 @@ static const int showsystray        = 1;
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const int user_bh            = 20;        /* 0 means that dwm will calculate bar height, >= 1 means dwm will user_bh as bar height */
-static const char *fonts[]          = { "Nimbus Sans:size=9" };
+static const char *fonts[]          = { "Nimbus Sans:size=9:bold" };
 static const char dmenufont[]       = "Nimbus Sans:size=9";
 
 static const char col_dark_grey[]   = "#1c2121";
@@ -33,6 +33,7 @@ static const char *colors[][3]      = {
 	[SchemeStatus]  = { col_white, col_dark_grey,  "#000000"  }, // Statusbar right {text,background,not used but cannot be empty}
 	[SchemeTagsSel]  = { col_dark_grey, col_cyan,  "#000000"  }, // Tagbar left selected {text,background,not used but cannot be empty}
     [SchemeTagsNorm]  = { col_white, col_dark_grey,  "#000000"  }, // Tagbar left unselected {text,background,not used but cannot be empty}
+	[SchemeTagsEmpty] = { col_white, col_grey, "#000000" },
     [SchemeInfoSel]  = { col_white, col_dark_grey,  "#000000"  }, // infobar middle  selected {text,background,not used but cannot be empty}
     [SchemeInfoNorm]  = { col_white, col_dark_grey,  "#000000"  }, // infobar middle  unselected {text,background,not used but cannot be empty}
 };

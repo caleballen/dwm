@@ -36,6 +36,7 @@ static const char *colors[][3]      = {
 	[SchemeTagsEmpty] = { col_white, col_grey, "#000000" },
     [SchemeInfoSel]  = { col_white, col_dark_grey,  "#000000"  }, // infobar middle  selected {text,background,not used but cannot be empty}
     [SchemeInfoNorm]  = { col_white, col_dark_grey,  "#000000"  }, // infobar middle  unselected {text,background,not used but cannot be empty}
+	[SchemeLayout] = { col_dark_grey, col_cyan, "#000000"},
 };
 
 /* tagging */
